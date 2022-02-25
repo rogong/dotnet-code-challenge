@@ -17,8 +17,12 @@ dotnet user-secrets set "Cloudinary:ApiSecret" "your ApiSecret goes here"
 
 Don't forget to substitute your keys 
 
+To migrate 
+Run "dotnet ef migrations add "Initial Create" -o Data/Migrations
 
-To run NetTest .net core 5 project, simply run "dotnet watch run" 
+The next thing is to start the project, that will automatically seed the dummmy data
+
+Run "dotnet watch run" 
 the swagger doc will popup from the browser, you can see the endpoints
 
 
