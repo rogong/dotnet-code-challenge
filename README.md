@@ -1,29 +1,31 @@
 # dotnet-code-challenge
 
-To run this project, clone the repo, the project has two folders, 
-client for the frontend(react), while NetTest for the backend(.net core5)
-Open the project in vs code, cd "Client" and run npm install or yarn to install the dependencies
-cd NetTest and run dotnet build to download the dependencies packages
+<ul>
 
-To start the client project run "yarn start" or "npm start" 
+<li>To run this project, clone the repo, the project has two folders,  </li>
+<li>client for the frontend(react), while NetTest for the backend(.net core5) </li>
+<li>Open the project in vs code, cd "Client" and run npm install or yarn to install the dependencies </li>
+<li>cd NetTest and run dotnet build to download the dependencies packages </li>
 
-To start  NetTest project, you have to provide Cloudinary Secret keys, the cloudinary provides free storage for our uploaded documents
-To get the keys kindly visit https://cloudinary.com/ to signup for free account
+<li>To start the client project run "yarn start" or "npm start"  </li>
 
-After getting your secret keys on Cloudinary, cd into NetTest folder from yout terminal and enter these commmands one by one
-dotnet user-secrets set "Cloudinary:CloudName" "your cloudeName goes here"
-dotnet user-secrets set "Cloudinary:Apikey" "your Apikey goes here"
-dotnet user-secrets set "Cloudinary:ApiSecret" "your ApiSecret goes here"
+<li>To start  NetTest project, you have to provide Cloudinary Secret keys, the cloudinary provides free storage for our uploaded documents </li>
+<li>To get the keys kindly visit https://cloudinary.com/ to signup for free account </li>
 
-Don't forget to substitute your keys 
+<li>After getting your secret keys on Cloudinary, cd into NetTest folder from yout terminal and enter these commmands one by one </li>
+<li>dotnet user-secrets set "Cloudinary:CloudName" "your cloudeName goes here" </li>
+<li>dotnet user-secrets set "Cloudinary:Apikey" "your Apikey goes here" </li>
+<li>dotnet user-secrets set "Cloudinary:ApiSecret" "your ApiSecret goes here" </li>
 
-To migrate 
-Run "dotnet ef migrations add "Initial Create" -o Data/Migrations
+<li>Don't forget to substitute your keys </li>
 
-The next thing is to start the project, that will automatically seed the dummmy data
+<li>To migrate 
+<li>Run "dotnet ef migrations add "Initial Create" -o Data/Migrations </li>
 
-Run "dotnet watch run" 
-the swagger doc will popup from the browser, you can see the endpoints
+<li>The next thing is to start the project, that will automatically seed the dummmy data </li>
+
+<li>Run "dotnet watch run" </li>
+<li>the swagger doc will popup from the browser, you can see the endpoints </li>
 
 
 
